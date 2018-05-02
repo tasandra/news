@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test1">
+    <test name="NewsAPI">
+        <groups>
+            <run>
+                <include name="response"/>
+            </run>
+        </groups>
+       <classes>
+           <class name="tests.SearchTest"/>
+           <class name="tests.SourceTest"/>
+       </classes>
+    </test>
+</suite>
