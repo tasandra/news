@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test1" duration-ms="24530" started-at="2018-05-02T05:32:19Z" finished-at="2018-05-02T05:32:44Z">
+    <groups>
+      <group name="response">
+        <method signature="SearchTest.getTitle()[pri:0, instance:tests.SearchTest@4563e9ab]" name="getTitle" class="tests.SearchTest"/>
+        <method signature="SourceTest.getAuthor()[pri:0, instance:tests.SourceTest@11531931]" name="getAuthor" class="tests.SourceTest"/>
+        <method signature="SourceTest.getIDs()[pri:0, instance:tests.SourceTest@11531931]" name="getIDs" class="tests.SourceTest"/>
+      </group> <!-- response -->
+      <group name="json">
+        <method signature="SearchTest.getTitle()[pri:0, instance:tests.SearchTest@4563e9ab]" name="getTitle" class="tests.SearchTest"/>
+        <method signature="SourceTest.getAuthor()[pri:0, instance:tests.SourceTest@11531931]" name="getAuthor" class="tests.SourceTest"/>
+        <method signature="SourceTest.getIDs()[pri:0, instance:tests.SourceTest@11531931]" name="getIDs" class="tests.SourceTest"/>
+      </group> <!-- json -->
+    </groups>
+    <test name="NewsAPI" duration-ms="24530" started-at="2018-05-02T05:32:19Z" finished-at="2018-05-02T05:32:44Z">
+      <class name="tests.SourceTest">
+        <test-method status="PASS" signature="configure()[pri:0, instance:tests.SourceTest@11531931]" name="configure" is-config="true" duration-ms="203" started-at="2018-05-02T05:32:39Z" finished-at="2018-05-02T05:32:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method status="PASS" signature="getAuthor()[pri:0, instance:tests.SourceTest@11531931]" name="getAuthor" duration-ms="3915" started-at="2018-05-02T05:32:39Z" finished-at="2018-05-02T05:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthor -->
+        <test-method status="PASS" signature="setURL()[pri:0, instance:tests.SourceTest@11531931]" name="setURL" is-config="true" duration-ms="0" started-at="2018-05-02T05:32:39Z" depends-on-methods="tests.BaseTest.configure" finished-at="2018-05-02T05:32:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method status="PASS" signature="getIDs()[pri:0, instance:tests.SourceTest@11531931]" name="getIDs" duration-ms="612" started-at="2018-05-02T05:32:43Z" finished-at="2018-05-02T05:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIDs -->
+      </class> <!-- tests.SourceTest -->
+      <class name="tests.SearchTest">
+        <test-method status="PASS" signature="configure()[pri:0, instance:tests.SearchTest@4563e9ab]" name="configure" is-config="true" duration-ms="5002" started-at="2018-05-02T05:32:19Z" finished-at="2018-05-02T05:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method status="PASS" signature="setURL()[pri:0, instance:tests.SearchTest@4563e9ab]" name="setURL" is-config="true" duration-ms="111" started-at="2018-05-02T05:32:24Z" depends-on-methods="tests.BaseTest.configure" finished-at="2018-05-02T05:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:tests.SearchTest@4563e9ab]" name="getTitle" duration-ms="14500" started-at="2018-05-02T05:32:24Z" finished-at="2018-05-02T05:32:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- NewsAPI -->
+  </suite> <!-- Test1 -->
+</testng-results>
